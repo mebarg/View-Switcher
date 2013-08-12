@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class MEBSwitchViewController;
 @interface MEBAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) MEBSwitchViewController *switchViewController;
+
 
 @end

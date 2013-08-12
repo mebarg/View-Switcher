@@ -16,6 +16,13 @@
 		9566D46D17B7C3E100C2F874 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9566D46C17B7C3E100C2F874 /* Default.png */; };
 		9566D46F17B7C3E200C2F874 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9566D46E17B7C3E100C2F874 /* Default@2x.png */; };
 		9566D47117B7C3E200C2F874 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9566D47017B7C3E200C2F874 /* Default-568h@2x.png */; };
+		9566D47C17B7C5A400C2F874 /* MEBSwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9566D47B17B7C5A400C2F874 /* MEBSwitchViewController.m */; };
+		9566D47F17B7C60E00C2F874 /* MEBBlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9566D47E17B7C60E00C2F874 /* MEBBlueViewController.m */; };
+		9566D48217B7C62700C2F874 /* MEBYellowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9566D48117B7C62700C2F874 /* MEBYellowViewController.m */; };
+		9566D48417B7C66B00C2F874 /* SwitchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9566D48317B7C66B00C2F874 /* SwitchView.xib */; };
+		9566D48617B7C69D00C2F874 /* BlueView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9566D48517B7C69D00C2F874 /* BlueView.xib */; };
+		9566D48817B7C6B500C2F874 /* YellowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9566D48717B7C6B400C2F874 /* YellowView.xib */; };
+		9566D4D917B83CDC00C2F874 /* 1376275287_delicious.png in Resources */ = {isa = PBXBuildFile; fileRef = 9566D4D817B83CDC00C2F874 /* 1376275287_delicious.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +39,16 @@
 		9566D46C17B7C3E100C2F874 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		9566D46E17B7C3E100C2F874 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		9566D47017B7C3E200C2F874 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9566D47A17B7C5A400C2F874 /* MEBSwitchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEBSwitchViewController.h; sourceTree = "<group>"; };
+		9566D47B17B7C5A400C2F874 /* MEBSwitchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEBSwitchViewController.m; sourceTree = "<group>"; };
+		9566D47D17B7C60E00C2F874 /* MEBBlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEBBlueViewController.h; sourceTree = "<group>"; };
+		9566D47E17B7C60E00C2F874 /* MEBBlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEBBlueViewController.m; sourceTree = "<group>"; };
+		9566D48017B7C62700C2F874 /* MEBYellowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEBYellowViewController.h; sourceTree = "<group>"; };
+		9566D48117B7C62700C2F874 /* MEBYellowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEBYellowViewController.m; sourceTree = "<group>"; };
+		9566D48317B7C66B00C2F874 /* SwitchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwitchView.xib; sourceTree = "<group>"; };
+		9566D48517B7C69D00C2F874 /* BlueView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlueView.xib; sourceTree = "<group>"; };
+		9566D48717B7C6B400C2F874 /* YellowView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = YellowView.xib; path = ../YellowView.xib; sourceTree = "<group>"; };
+		9566D4D817B83CDC00C2F874 /* 1376275287_delicious.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1376275287_delicious.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +97,16 @@
 			children = (
 				9566D46917B7C3E100C2F874 /* MEBAppDelegate.h */,
 				9566D46A17B7C3E100C2F874 /* MEBAppDelegate.m */,
+				9566D47A17B7C5A400C2F874 /* MEBSwitchViewController.h */,
+				9566D47B17B7C5A400C2F874 /* MEBSwitchViewController.m */,
+				9566D48017B7C62700C2F874 /* MEBYellowViewController.h */,
+				9566D48117B7C62700C2F874 /* MEBYellowViewController.m */,
+				9566D47D17B7C60E00C2F874 /* MEBBlueViewController.h */,
+				9566D47E17B7C60E00C2F874 /* MEBBlueViewController.m */,
+				9566D48317B7C66B00C2F874 /* SwitchView.xib */,
+				9566D48517B7C69D00C2F874 /* BlueView.xib */,
+				9566D48717B7C6B400C2F874 /* YellowView.xib */,
+				9566D4D817B83CDC00C2F874 /* 1376275287_delicious.png */,
 				9566D46117B7C3E100C2F874 /* Supporting Files */,
 			);
 			path = "View Switcher";
@@ -155,6 +182,10 @@
 				9566D46D17B7C3E100C2F874 /* Default.png in Resources */,
 				9566D46F17B7C3E200C2F874 /* Default@2x.png in Resources */,
 				9566D47117B7C3E200C2F874 /* Default-568h@2x.png in Resources */,
+				9566D48417B7C66B00C2F874 /* SwitchView.xib in Resources */,
+				9566D48617B7C69D00C2F874 /* BlueView.xib in Resources */,
+				9566D48817B7C6B500C2F874 /* YellowView.xib in Resources */,
+				9566D4D917B83CDC00C2F874 /* 1376275287_delicious.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +198,9 @@
 			files = (
 				9566D46717B7C3E100C2F874 /* main.m in Sources */,
 				9566D46B17B7C3E100C2F874 /* MEBAppDelegate.m in Sources */,
+				9566D47C17B7C5A400C2F874 /* MEBSwitchViewController.m in Sources */,
+				9566D47F17B7C60E00C2F874 /* MEBBlueViewController.m in Sources */,
+				9566D48217B7C62700C2F874 /* MEBYellowViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +280,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "View Switcher/View Switcher-Prefix.pch";
 				INFOPLIST_FILE = "View Switcher/View Switcher-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -257,6 +292,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "View Switcher/View Switcher-Prefix.pch";
 				INFOPLIST_FILE = "View Switcher/View Switcher-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -281,6 +317,7 @@
 				9566D47617B7C3E200C2F874 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
